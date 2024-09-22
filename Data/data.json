@@ -1,0 +1,575 @@
+[
+    {
+      "id": 1,
+      "title": "Tunday Kababi",
+      "description": "A famous dish from Lucknow, Tunday Kababi are succulent kebabs made with minced meat and a blend of rich spices.",
+      "price": 150,
+      "img": "https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/atohzxgxrswyxlwnnsjx",
+      "reviews": [
+        "Amazing flavors, a must-try!",
+        "Best kebabs I've ever had."
+      ],
+      "ratings": 4.8,
+      "food_type": "nonveg"
+    },
+    {
+      "id": 2,
+      "title": "Agra Petha",
+      "description": "Agra's specialty, Agra Petha is a sweet delicacy made from ash gourd, known for its translucent appearance and delicate flavor.",
+      "price": 180,
+      "img": "https://m.media-amazon.com/images/I/5119uI0nXTL._AC_UF1000,1000_QL80_.jpg",
+      "reviews": [
+        "Sweet and delicious, a perfect souvenir from Agra.",
+        "Loved the unique texture and taste."
+      ],
+      "ratings": 4.5,
+      "food_type": "veg"
+    },
+    {
+      "id": 3,
+      "title": "Litti Chokha",
+      "description": "A traditional dish from Varanasi, Litti Chokha consists of roasted wheat flour balls filled with spiced gram flour, served with mashed vegetables.",
+      "price": 80,
+      "img": "https://i.pinimg.com/736x/96/94/5f/96945fd71699e3e9f8091c31fda3b1f6.jpg",
+      "reviews": [
+        "Authentic and flavorful!",
+        "Perfect blend of spices and smokiness."
+      ],
+      "ratings": 4.7,
+      "food_type": "veg"
+    },
+    {
+      "id": 4,
+      "title": "Malaiyo",
+      "description": "A frothy, creamy dessert from Varanasi, made with milk and flavored with saffron and cardamom, typically enjoyed during winters.",
+      "price": 50,
+      "img": "https://qph.cf2.quoracdn.net/main-qimg-d5396e4d9131e5b72e57c303e48919b3-lq",
+      "reviews": [
+        "A delightful and light dessert, perfect for winter.",
+        "Unique and refreshing taste."
+      ],
+      "ratings": 4.6,
+      "food_type": "veg"
+    },
+    {
+      "id": 5,
+      "title": "Galouti Kebab",
+      "description": "Another gem from Lucknow, Galouti Kebabs are finely minced meat kebabs that melt in your mouth, often enjoyed with parathas.",
+      "price": 180,
+      "img": "https://www.ruchiskitchen.com/wp-content/uploads/2022/08/Veg-galouti-kebab-recipe-07.jpg.webp",
+      "reviews": [
+        "Unbelievably soft and flavorful.",
+        "A must-try for meat lovers."
+      ],
+      "ratings": 4.9,
+      "food_type": "nonveg"
+    },
+    {
+      "id": 6,
+      "title": "Bedmi Puri",
+      "description": "A popular breakfast item in Mathura, Bedmi Puri is a deep-fried bread made from wheat flour and urad dal, served with spicy potato curry.",
+      "price": 60,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqEKx4Km5kreUfGG5gizfpJao0_Zk9XIVzg&s",
+      "reviews": [
+        "Crispy and delicious, perfect start to the day.",
+        "Hearty and satisfying breakfast."
+      ],
+      "ratings": 4.4,
+      "food_type": "veg"
+    },
+    {
+      "id": 7,
+      "title": "Thandai",
+      "description": "A traditional Indian drink from Varanasi, Thandai is made with milk, nuts, and spices, often enjoyed during festivals like Holi.",
+      "price": 120,
+      "img": "https://www.archanaskitchen.com//images/archanaskitchen/1-Author/Madhuri_Aggarwal/Thandai.jpg",
+      "reviews": [
+        "Refreshing and flavorful, a festive favorite.",
+        "Perfect blend of spices and nuts."
+      ],
+      "ratings": 4.7,
+      "food_type": "veg"
+    },
+    {
+      "id": 8,
+      "title": "Aloo Tikki",
+      "description": "A popular street food across Uttar Pradesh, Aloo Tikki are crispy potato patties served with chutney and yogurt.",
+      "price": 40,
+      "img": "https://www.honeywhatscooking.com/wp-content/uploads/2020/10/Aloo-Tikki-Chaat60.jpg",
+      "reviews": [
+        "Crispy on the outside, soft and spicy on the inside.",
+        "A classic snack, always hits the spot."
+      ],
+      "ratings": 4.5,
+      "food_type": "veg"
+    },
+    {
+      "id": 9,
+      "title": "Jalebi",
+      "description": "A sweet treat enjoyed throughout Uttar Pradesh, Jalebi are deep-fried spirals of batter soaked in sugar syrup, served hot.",
+      "price": 30,
+      "img": "https://media.istockphoto.com/id/1159362325/photo/bread-pakora.jpg?s=612x612&w=0&k=20&c=93uILcInCMXroXgjEJYXNeUzWh5NASSrEnylAgW7hcs=",
+      "reviews": [
+        "Sweet, crispy, and utterly delicious.",
+        "Best when served hot and fresh."
+      ],
+      "ratings": 4.6,
+      "food_type": "veg"
+    },
+    {
+      "id": 10,
+      "title": "Chicken Biryani",
+      "description": "Aromatic and flavorful rice dish from Lucknow, Biryani is cooked with spices, herbs, and meat or vegetables, served with raita.",
+      "price": 250,
+      "img": "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=",
+      "reviews": [
+        "Fragrant and rich in flavors.",
+        "The perfect blend of spices and meat."
+      ],
+      "ratings": 4.8,
+      "food_type": "nonveg"
+    },
+    {
+      "id": 11,
+      "title": "Kachori",
+      "description": "Kachori is a deep-fried, savory snack filled with spiced lentils, popular in various parts of Uttar Pradesh like Mathura and Varanasi.",
+      "price": 20,
+      "img": "https://st2.depositphotos.com/5653638/11442/i/450/depositphotos_114424778-stock-photo-kachori-or-kachauri-or-kachodi.jpg",
+      "reviews": [
+        "Crunchy and delicious, great with chutney.",
+        "A perfect snack for tea time."
+      ],
+      "ratings": 4.3,
+      "food_type": "veg"
+    },
+    {
+      "id": 12,
+      "title": "Chaat",
+      "description": "A savory street food that varies across cities like Lucknow and Kanpur, Chaat typically includes spiced potatoes, tangy tamarind, and crispy elements.",
+      "price": 50,
+      "img": "https://i0.wp.com/onewholesomemeal.com/wp-content/uploads/2020/03/Aaloo-Tikki-Chaat_4-1.jpg?fit=1000%2C800&ssl=1",
+      "reviews": [
+        "Tangy, spicy, and absolutely irresistible.",
+        "The best street food experience!"
+      ],
+      "ratings": 4.7,
+      "food_type": "veg"
+    },
+    {
+      "id": 13,
+      "title": "Gujiya",
+      "description": "A traditional sweet from Mathura, Gujiya are crescent-shaped pastries filled with sweetened khoya and dry fruits, often made during festivals.",
+      "price": 100,
+      "img": "https://static.vecteezy.com/system/resources/previews/018/786/966/non_2x/gujiya-traditional-indian-food-sweet-dumplings-made-during-the-holi-festival-photo.jpg",
+      "reviews": [
+        "Sweet and rich, perfect for festive occasions.",
+        "Love the crunchy and flavorful filling."
+      ],
+      "ratings": 4.6,
+      "food_type": "veg"
+    },
+    {
+      "id": 14,
+      "title": "Banarasi Paan",
+      "description": "A specialty from Varanasi, Banarasi Paan is a betel leaf filled with a mixture of areca nut, slaked lime, and sweetened ingredients, enjoyed as a palate cleanser.",
+      "price": 20,
+      "img": "https://citywalkin.weebly.com/uploads/1/3/1/2/131221810/images-29.jpeg",
+      "reviews": [
+        "Refreshing and aromatic, a unique experience.",
+        "Perfect after a heavy meal."
+      ],
+      "ratings": 4.4,
+      "food_type": "veg"
+    },
+    {
+      "id": 15,
+      "title": "Paneer Butter Masala",
+      "description": "A creamy and rich North Indian dish from Kanpur, Paneer Butter Masala features soft paneer cubes cooked in a tomato-based gravy with butter and cream.",
+      "price": 180,
+      "img": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg",
+      "reviews": [
+        "Creamy and delicious, pairs well with naan.",
+        "Rich and flavorful, a vegetarian delight."
+      ],
+      "ratings": 4.8,
+      "food_type": "veg"
+    },
+    {
+      "id": 16,
+      "title": "Rabri",
+      "description": "Rabri is a sweet, condensed-milk dessert from Mathura, garnished with nuts and flavored with cardamom, enjoyed chilled.",
+      "price": 90,
+      "img": "https://t3.ftcdn.net/jpg/02/33/48/76/360_F_233487618_zZdP4pLcOeENbhphPlaBuU2CDA3kUW0K.jpg",
+      "reviews": [
+        "Rich, creamy, and absolutely divine.",
+        "Perfect balance of sweetness and texture."
+      ],
+      "ratings": 4.7,
+      "food_type": "veg"
+    },
+    {
+      "id": 17,
+      "title": "Aloo Paratha",
+      "description": "A popular breakfast choice across Uttar Pradesh, Aloo Paratha is a whole wheat bread stuffed with spiced mashed potatoes, served with butter or yogurt.",
+      "price": 70,
+      "img": "https://media.istockphoto.com/id/1279134709/photo/image-of-metal-tray-with-aloo-paratha-pile-topped-with-red-onion-rings-and-sprinkle-of.jpg?s=612x612&w=0&k=20&c=GRayLaSHVOuWZn63lV02NvLZ75y8ECE7Zw2-0Dk5H5U=",
+      "reviews": [
+        "Hearty and filling, a breakfast favorite.",
+        "Perfectly spiced and flavorful."
+      ],
+      "ratings": 4.5,
+      "food_type": "veg"
+    },
+    {
+      "id": 18,
+      "title": "Kulfi",
+      "description": "A traditional Indian ice cream from Lucknow, Kulfi is dense and creamy, made with milk, nuts, and flavored with saffron or cardamom.",
+      "price": 60,
+      "img": "https://t3.ftcdn.net/jpg/01/41/76/88/360_F_141768845_jsbAAHDmY0zTasngshLDnKEzpwbA9noi.jpg",
+      "reviews": [
+        "Creamy and rich, a delightful dessert.",
+        "Love the authentic flavors."
+      ],
+      "ratings": 4.6,
+      "food_type": "veg"
+    },
+    {
+      "id": 19,
+      "title": "Makhan Malai",
+      "description": "Makhan Malai is a light and airy dessert from Lucknow, made with milk froth, saffron, and garnished with dry fruits, typically enjoyed during winters.",
+      "price": 80,
+      "img": "https://example.com/makhan_malai.jpg",
+      "reviews": [
+        "Delicate and flavorful, melts in your mouth.",
+        "A winter delicacy worth trying."
+      ],
+      "ratings": 4.7,
+      "food_type": "veg"
+    },
+    {
+      "id": 20,
+      "title": "Kebab Paratha",
+      "description": "A hearty dish from Lucknow, Kebab Paratha features minced meat kebabs stuffed inside flaky parathas, often served with chutney and yogurt.",
+      "price": 220,
+      "img": "https://example.com/kebab_paratha.jpg",
+      "reviews": [
+        "Satisfying and delicious, a full meal.",
+        "Perfect blend of kebabs and paratha."
+      ],
+      "ratings": 4.9,
+      "food_type": "nonveg"
+    },
+    {
+        "id": 21,
+        "title": "Peda",
+        "description": "A sweet from Mathura, Peda is made from condensed milk and flavored with cardamom, often garnished with pistachios.",
+        "price": 40,
+        "img": "https://example.com/peda.jpg",
+        "reviews": [
+          "Creamy and delicious, melts in your mouth.",
+          "Perfect balance of sweetness."
+        ],
+        "ratings": 4.5,
+        "food_type": "veg"
+      },
+      {
+        "id": 22,
+        "title": "Chole Bhature",
+        "description": "A popular dish from Kanpur, Chole Bhature consists of spicy chickpea curry served with deep-fried bread, often enjoyed for breakfast or lunch.",
+        "price": 120,
+        "img": "https://example.com/chole_bhature.jpg",
+        "reviews": [
+          "Spicy and flavorful, a hearty meal.",
+          "Love the crispy bhature."
+        ],
+        "ratings": 4.6,
+        "food_type": "veg"
+      },
+      {
+        "id": 23,
+        "title": "Petha",
+        "description": "A famous sweet from Agra, Petha is made from ash gourd and often flavored with saffron or cardamom, enjoyed as a dessert or snack.",
+        "price": 60,
+        "img": "https://example.com/petha_agra.jpg",
+        "reviews": [
+          "Delicate and sweet, perfect after a meal.",
+          "Love the traditional flavors."
+        ],
+        "ratings": 4.4,
+        "food_type": "veg"
+      },
+      {
+        "id": 24,
+        "title": "Samosa",
+        "description": "A popular snack across Uttar Pradesh, Samosa is a deep-fried pastry filled with spiced potatoes, peas, and sometimes meat, enjoyed with chutney.",
+        "price": 30,
+        "img": "https://example.com/samosa.jpg",
+        "reviews": [
+          "Crispy and flavorful, great with tea.",
+          "Perfect snack for any occasion."
+        ],
+        "ratings": 4.3,
+        "food_type": "veg"
+      },
+      {
+        "id": 25,
+        "title": "Puri Sabji",
+        "description": "A traditional breakfast from Varanasi, Puri Sabji features deep-fried bread (puri) served with a spicy potato curry (sabji), often accompanied by pickles.",
+        "price": 50,
+        "img": "https://example.com/puri_sabji.jpg",
+        "reviews": [
+          "Hearty and satisfying breakfast choice.",
+          "Perfect blend of spices."
+        ],
+        "ratings": 4.5,
+        "food_type": "veg"
+      },
+      {
+        "id": 26,
+        "title": "Balushahi",
+        "description": "A flaky, sweet pastry from Kanpur, Balushahi is made from flour, ghee, and sugar syrup, often enjoyed during festivals or special occasions.",
+        "price": 40,
+        "img": "https://example.com/balushahi.jpg",
+        "reviews": [
+          "Crunchy and sweet, a delightful treat.",
+          "Love the texture and sweetness."
+        ],
+        "ratings": 4.4,
+        "food_type": "veg"
+      },
+      {
+        "id": 27,
+        "title": "Dahi Vada",
+        "description": "A popular snack from Lucknow, Dahi Vada consists of lentil dumplings soaked in spiced yogurt and topped with tamarind chutney and spices.",
+        "price": 60,
+        "img": "https://example.com/dahi_vada.jpg",
+        "reviews": [
+          "Cooling and refreshing, perfect for summer.",
+          "Love the combination of flavors."
+        ],
+        "ratings": 4.6,
+        "food_type": "veg"
+      },
+      {
+        "id": 28,
+        "title": "Kachori Sabzi",
+        "description": "A savory breakfast from Mathura, Kachori Sabzi includes deep-fried, spiced lentil pastries served with a tangy potato curry, garnished with onions and chutney.",
+        "price": 70,
+        "img": "https://example.com/kachori_sabzi.jpg",
+        "reviews": [
+          "Flavorful and filling breakfast option.",
+          "Perfect balance of spices."
+        ],
+        "ratings": 4.7,
+        "food_type": "veg"
+      },
+      {
+        "id": 29,
+        "title": "Kalakand",
+        "description": "A milk-based sweet from Kanpur, Kalakand is made with condensed milk and paneer, flavored with cardamom, and garnished with nuts.",
+        "price": 80,
+        "img": "https://example.com/kalakand.jpg",
+        "reviews": [
+          "Creamy and rich, a perfect dessert.",
+          "Love the texture and sweetness."
+        ],
+        "ratings": 4.5,
+        "food_type": "veg"
+      },
+      {
+        "id": 30,
+        "title": "Imarti",
+        "description": "A traditional dessert from Lucknow, Imarti is made from lentil batter, deep-fried and soaked in sugar syrup, similar to jalebi but with a different shape.",
+        "price": 50,
+        "img": "https://example.com/imarti.jpg",
+        "reviews": [
+          "Sweet and crispy, perfect for celebrations.",
+          "Love the delicate sweetness."
+        ],
+        "ratings": 4.4,
+        "food_type": "veg"
+      },
+      {
+        "id": 31,
+        "title": "Baati Chokha",
+        "description": "A rustic dish from Varanasi, Baati Chokha consists of baked wheat balls (baati) served with mashed vegetables (chokha) and ghee.",
+        "price": 100,
+        "img": "https://example.com/baati_chokha.jpg",
+        "reviews": [
+          "Hearty and wholesome, a taste of tradition.",
+          "Love the smoky flavors."
+        ],
+        "ratings": 4.6,
+        "food_type": "veg"
+      },
+      {
+        "id": 32,
+        "title": "Malpua",
+        "description": "A sweet pancake from Kanpur, Malpua is made from flour, milk, and sugar, fried until crispy and soaked in sugar syrup, often enjoyed during festivals.",
+        "price": 40,
+        "img": "https://example.com/malpua.jpg",
+        "reviews": [
+          "Crispy and sweet, a delightful treat.",
+          "Perfect for festive occasions."
+        ],
+        "ratings": 4.3,
+        "food_type": "veg"
+      },
+      {
+        "id": 33,
+        "title": "Pav Bhaji",
+        "description": "A popular street food from Kanpur, Pav Bhaji consists of spiced mashed vegetables (bhaji) served with buttered bread rolls (pav), garnished with onions and lemon.",
+        "price": 80,
+        "img": "https://example.com/pav_bhaji.jpg",
+        "reviews": [
+          "Spicy and flavorful, a satisfying meal.",
+          "Love the buttery pav."
+        ],
+        "ratings": 4.7,
+        "food_type": "veg"
+      },
+      {
+        "id": 34,
+        "title": "Shahi Tukda",
+        "description": "A rich dessert from Lucknow, Shahi Tukda features fried bread soaked in sweetened milk, garnished with saffron, cardamom, and nuts.",
+        "price": 90,
+        "img": "https://example.com/shahi_tukda.jpg",
+        "reviews": [
+          "Creamy and indulgent, a royal treat.",
+          "Love the rich flavors."
+        ],
+        "ratings": 4.5,
+        "food_type": "veg"
+      },
+      {
+        "id": 35,
+        "title": "Bhindi Masala",
+        "description": "A spicy Okra dish from Kanpur, Bhindi Masala features stir-fried okra cooked with onions, tomatoes, and a blend of spices.",
+        "price": 70,
+        "img": "https://example.com/bhindi_masala.jpg",
+        "reviews": [
+          "Flavorful and aromatic, pairs well with rice.",
+          "Love the tender okra."
+        ],
+        "ratings": 4.4,
+        "food_type": "veg"
+      },
+      {
+        "id": 36,
+        "title": "Baingan Bharta",
+        "description": "A smoky eggplant dish from Lucknow, Baingan Bharta features roasted eggplant mashed and cooked with onions, tomatoes, and spices.",
+        "price": 80,
+        "img": "https://example.com/baingan_bharta.jpg",
+        "reviews": [
+          "Smoky and delicious, a vegetarian delight.",
+          "Perfect with naan or roti."
+        ],
+        "ratings": 4.6,
+        "food_type": "veg"
+      },
+      {
+        "id": 37,
+        "title": "Gajar Ka Halwa",
+        "description": "A classic Indian dessert from Kanpur, Gajar Ka Halwa is made from grated carrots cooked with milk, ghee, and sugar, garnished with nuts and cardamom.",
+        "price": 100,
+        "img": "https://example.com/gajar_halwa.jpg",
+        "reviews": [
+          "Rich and flavorful, a winter favorite.",
+          "Love the texture and sweetness."
+        ],
+        "ratings": 4.7,
+        "food_type": "veg"
+      },
+      {
+        "id": 38,
+        "title": "Kadhi Chawal",
+        "description": "A comforting dish from Varanasi, Kadhi Chawal consists of spiced yogurt gravy (kadhi) served with steamed rice (chawal), garnished with fried pakoras.",
+        "price": 90,
+        "img": "https://example.com/kadhi_chawal.jpg",
+        "reviews": [
+          "Creamy and tangy, a satisfying meal.",
+          "Love the crispy pakoras."
+        ],
+        "ratings": 4.5,
+        "food_type": "veg"
+      },
+      {
+        "id": 39,
+        "title": "Kofta Curry",
+        "description": "A flavorful curry from Kanpur, Kofta Curry features deep-fried vegetable or meatballs (koftas) simmered in a spiced gravy.",
+        "price": 120,
+        "img": "https://example.com/kofta_curry.jpg",
+        "reviews": [
+          "Rich and aromatic, perfect with naan or rice.",
+          "Love the tender koftas."
+        ],
+        "ratings": 4.6,
+        "food_type": "nonveg"
+      },
+      {
+        "id": 40,
+        "title": "Chicken Biryani",
+        "description": "A classic dish from Lucknow, Chicken Biryani features aromatic rice cooked with marinated chicken, spices, and garnished with fried onions and boiled eggs.",
+        "price": 180,
+        "img": "https://example.com/chicken_biryani.jpg",
+        "reviews": [
+          "Flavorful and aromatic, a must-try.",
+          "Love the tender chicken."
+        ],
+        "ratings": 4.8,
+        "food_type": "nonveg"
+      },
+      {
+        "id": 41,
+        "title": "Rogan Josh",
+        "description": "A rich lamb curry from Kanpur, Rogan Josh features tender lamb cooked in a spicy gravy, flavored with Kashmiri red chili and saffron.",
+        "price": 200,
+        "img": "https://example.com/rogan_josh.jpg",
+        "reviews": [
+          "Hearty and flavorful, perfect with naan or rice.",
+          "Love the rich spices."
+        ],
+        "ratings": 4.7,
+        "food_type": "nonveg"
+      },
+      {
+        "id": 42,
+        "title": "Galouti Kebab",
+        "description": "A melt-in-your-mouth kebab from Lucknow, Galouti Kebab is made from finely minced meat (usually lamb or beef) marinated with spices, herbs, and raw papaya, then shallow fried.",
+        "price": 240,
+        "img": "https://example.com/galouti_kebab.jpg",
+        "reviews": [
+          "Tender and flavorful, a royal delicacy.",
+          "Love the melt-in-your-mouth texture."
+        ],
+        "ratings": 4.9,
+        "food_type": "nonveg"
+      },
+      {
+        "id": 43,
+        "title": "Fish Curry",
+        "description": "A spicy fish curry from Varanasi, Fish Curry features fresh fish cooked in a tangy gravy with tomatoes, onions, and a blend of spices.",
+        "price": 160,
+        "img": "https://example.com/fish_curry.jpg",
+        "reviews": [
+          "Delicious and flavorful, perfect with rice.",
+          "Love the tender fish."
+        ],
+        "ratings": 4.6,
+        "food_type": "nonveg"
+      },
+      {
+        "id": 44,
+        "title": "Mutton Korma",
+        "description": "A rich and creamy mutton curry from Kanpur, Mutton Korma features tender mutton cooked in a yogurt and cashew nut gravy, flavored with saffron and spices.",
+        "price": 220,
+        "img": "https://example.com/mutton_korma.jpg",
+        "reviews": [
+          "Rich and aromatic, a delight for mutton lovers.",
+          "Love the creamy texture."
+        ],
+        "ratings": 4.8,
+        "food_type": "nonveg"
+      }
+  ]
+  

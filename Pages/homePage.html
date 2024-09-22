@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar and Hero Section</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../Style/homePage.css"> -->
+
+    <style>
+
+
+.navbar-custom {
+    background-color: #2c3e50;
+} 
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #f39c12;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #f39c12;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #e67e22;
+}
+
+.navbar-custom .cart-icon {
+    color: #f39c12;
+    font-size: 1.5em;
+}
+
+.navbar-custom .cart-icon:hover {
+    color: #e67e22;
+}
+
+.navbar-nav{
+gap: 1.5rem; 
+}
+
+/* Hero Section Styles */
+.hero-section{
+    position: relative;
+    /* background-image: url('../Assest/bg-image.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+}
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 50px;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn-book {
+    background-color: #f39c12;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn-book:hover {
+    background-color: #e67e22;
+}
+
+.hero-image {
+    max-width: 45%;
+    height: auto;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    padding: 0 0;
+    text-align: center;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e67e22;
+}
+
+.footer-links {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #f39c12;
+}
+
+.social-icons a:hover {
+    color: #e67e22;
+}
+
+
+
+/* Ensure the content is not spaced out too much */
+.footer .container p,
+.footer .container ul,
+.footer .container table {
+margin-bottom: 0.5rem;
+}
+
+/* Fine-tuning margins for buttons and list items */
+.footer .btn {
+margin-right: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.footer .fa-ul li {
+margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero-content,
+    .hero-image {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    .footer .container {
+    padding: 1rem;
+}
+
+.footer .col-md-12, .footer .col-md-6, .footer .col-lg-4 {
+    margin-bottom: 1rem;
+}
+}
+    </style>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        
+        <a class="navbar-brand" href="#">Flavors of Awadh</a>
+        <!-- <img src="../Assest/logo.png"  class="navbar-brand" alt="Logo"> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/service">SERVICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/order-now">ORDER-NOW</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">CONTACT</a>
+                </li>
+            </ul>
+            <a href="/cart" class="ml-lg-3"><i class="fas fa-shopping-cart cart-icon"></i></a>
+        </div>
+    </nav>
+</header>
+    <!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <h1>Enjoy Our Delicious Meal</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod, turpis ut vehicula sollicitudin, erat lacus dapibus justo, sit amet elementum libero neque in libero.</p>
+        <button class="btn-book">Book a Table</button>
+    </div>
+    <!-- <img src="../Assest/litti-gif.gif" alt="Delicious Dish" class="hero-image"> -->
+</section>
+ 
+
+<footer class="footer text-white text-center text-lg-start">
+    <div class="container p-4">
+        <div class="row mt-4">
+            <!-- Existing columns -->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">About company</h5>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum deleniti atque corrupti.
+                </p>
+                <p>
+                    Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias.
+                </p>
+                <div class="mt-4">
+                    <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-linkedin"></i></a>
+                    <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-instagram"></i></a>
+                    <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <ul class="fa-ul" style="margin-left: 1.65em;">
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">In Front of Bus Stand Sultanpur,U.P</span>
+                    </li>
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">srivastavaayush6393@gmail.com</span>
+                    </li>
+                    <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-0">+91-6393964912</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Opening hours</h5>
+                <table class="table text-center text-white">
+                    <tbody class="font-weight-normal">
+                        <tr>
+                            <td>Mon - Thu:</td>
+                            <td>8am - 9pm</td>
+                        </tr>
+                        <tr>
+                            <td>Fri - Sat:</td>
+                            <td>8am - 1am</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday:</td>
+                            <td>9am - 10pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- New div for links to different pages -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h5 class="text-uppercase mb-4">Quick Links</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="/" class="text-white">Home</a></li>
+                    <li class="list-inline-item"><a href="/about" class="text-white">About Us</a></li>
+                    <li class="list-inline-item"><a href="/order-now" class="text-white">Order Now</a></li>
+                    <li class="list-inline-item"><a href="/contact" class="text-white">Contact</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
